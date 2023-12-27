@@ -1,0 +1,88 @@
+body{
+    min-height:100vh;
+    background-color:hsl(0, 0%, 94%);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.wrapper{
+    width:50%;
+    padding:20px 20px 0px 20px;
+    background-color:hsl(0, 0%, 100%);
+    border-radius:20px 20px 150px 20px;
+}
+.timeStyle label{
+    flex-basis:50%;
+    display:block;
+    font-family: 'Poppins', sans-serif;
+    color:hsl(0, 0%, 79%);
+}
+.timeStyle input{
+    flex-basis:50%;
+    font-family:'Poppins', sans-serif;
+    height:50px;
+    font-size:32px;
+    width:30%;
+    padding: 5%;
+    border-radius: 10px;
+}
+.years input{
+    width:40%;
+}
+.inputs{
+    width:80%;
+    display:flex;
+    justify-content:space-around;
+    margin-top:5%;
+}
+.timeStyle{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items:center;
+}
+.wrapper hr{
+    display:inline-block;
+    width:85%;
+}
+.wrapper img{
+    position:relative;
+    top:30px;
+    width:50px;
+    padding:20px;
+    background-color:hsl(259, 100%, 65%);
+    border-radius:100%;
+    transition: background-color 0.5s;
+}
+.wrapper img:hover{
+    background-color:black;
+    cursor:pointer;
+}
+.outputs{
+    display: flex;
+    flex-direction:column;
+}
+.Format p{
+    font-family:'Poppins', sans-serif;
+    font-weight:bold;
+    font-style:italic;
+    font-size:70px;
+    margin:0;
+}
+.Format span{
+    color:hsl(259, 100%, 65%);
+}
+
+.timeStyle span{
+    font-family:'Poppins', sans-serif;
+    font-style: italic;
+    color:hsl(0, 100%, 67%);
+    display: none;
+}
+
+ label.incorrect{
+    color: hsl(0, 100%, 67%);
+}
+input.incorrect{
+    border: 1px solid hsl(0, 100%, 67%);
+}
