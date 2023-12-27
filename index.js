@@ -32,7 +32,7 @@ function dateVerify(enteredDate,enteredMonth,enteredYear){
         document.querySelector(".years label").classList.add("incorrect");
         document.querySelector(".years input").classList.add("incorrect");
         return 0;
-    } else if((enteredMonth==4 ||enteredMonth==6||enteredMonth==9||enteredMonth==11)&& enteredDate>30){
+    } else if(((enteredMonth==4 ||enteredMonth==6||enteredMonth==9||enteredMonth==11)&& enteredDate>30)|| enteredDate<=0 || enteredMonth<=0 ||enteredYear<=0){
         document.querySelector(".days span").textContent="Must be a valid date";
         document.querySelector(".days span").style.display="inline";
         document.querySelector(".days label").classList.add("incorrect");
