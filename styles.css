@@ -78,6 +78,8 @@ body{
     font-style: italic;
     color:hsl(0, 100%, 67%);
     display: none;
+    position: absolute;
+    margin-top:8%;
 }
 
  label.incorrect{
